@@ -8,7 +8,7 @@ date: 2019-05-27
 Listening to music whle running is fun and when used properly it can actually be used to boost your run. Running is all about finding the equilibrium while you are at it. The more you can maintain your breathing pattern and the calmer your mind is, the more prolonged your run can be. If you keep changing pace, the breathing pattern changes, the equilibrium shifts and its easier to be tired or run out of breath and stop. So assuming you are on a treadmill and you need a time keeper to help you keep pace and motivate you to keep going, these songs might come in handy. As far as time keepers go, they don't get better than John Bonham. The order of this list is important as each song has its purpose in its place.
 
 
-![My helpful screenshot](/assets/img/drummer.jpg)
+![My helpful screenshot](/assets/img/drummerfin.jpg)
 
 
 # 1.When the Levee Breaks
