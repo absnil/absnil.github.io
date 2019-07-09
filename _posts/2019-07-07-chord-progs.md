@@ -4,7 +4,7 @@ title: "5 Intersting chord progressions"
 date: 2019-07-07
 ---
 
-![My helpful screenshot](/assets/img/music.jpg)
+![My helpful screenshot](/assets/img/guitar.jpg)
 
 
 Playing chords is fun. Here's a list of 5 fairly easy. common but intersting chords progressions. A lot of songs are based of these progressions. Or not. Either way, these are super fun to play and practise. Don't just try these in the first position. Some of these are easier to play from other positions or sound better there. Experiment with the capo too. So here we go:
