@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "5 Intersting chord progressions"
+title: "5 Interesting chord progressions"
 date: 2019-07-07
 ---
 
