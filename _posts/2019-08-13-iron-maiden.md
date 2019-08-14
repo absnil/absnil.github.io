@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Epitome of Showmanship"
-date: 2019-05-27
+date: 2019-08-13
 ---
 
 ![My helpful screenshot](/assets/img/maiden1.jpeg)
