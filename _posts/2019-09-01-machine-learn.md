@@ -1,0 +1,59 @@
+---
+layout: post
+title: "A gentle Introduction to Working with sklearn and machine learning models"
+date: 2019-06-16
+---
+Starting machine learning and model training is an interesting yet scary prospect. Interesting because there are so many possible applications and scary because there is just so much of it out there and it's difficult to distill the basics and get a hang of them. So here I'm trying to simplify the whole process with the help of one calssification model implementations.
+1. Naive Bayes
+
+First things first. A very important part of the process is to have data in the right order before training a model.
+The data is broadly divided into:
+1. A training set
+2. A test set
+Each of these sets will be divided into two parts each:
+1. Features - The features on the basis of which you wish to classify the data
+2. Labels - The final classification of the data point based on the feature values
+
+We are dealing with Supervised Learning Models here
+So, even before starting off with our models, half our job will be done if we have data divided into:
+1. Training features (training_features)
+2. Training Labels (training_labels)
+3. Testing Features (testing_features)
+4. Testing Labels (testing_labels)
+
+Now that this is done let's take a look at the classifying models. We will use scikit-learn to use these models. A good place to start is to just have a glance at the massive library [scikit learn][scikit-learn] has been built up to be. Don't be overwhelmed by all of it just glance through quickly. Now getting back to implementing our model
+
+There are 4 steps involved:
+1. Import the package the model is in from sklearn
+2. Define the classifier from the package imported
+3. Train the model( use the fit() function)
+4. Test the model (use the predict() function)
+5. (Optional) Test the accuracy using the accuracy_score from sklearn.metrics
+
+The code for training the Naive Bayes Classifier is given by:
+
+```
+from sklearn.naive_bayes import GaussianNB
+clf=GaussianNB()
+clf.fit(training_features,training_labels)
+
+```
+It might be a good idea to try out the basic example on the sklearn [documentation][documentation] page first.
+After training the data, it's time to test it. So first we make classification predictions for the test set to see on the basis of current training, how the data points in the test set are classified. To predict values from the test set:
+
+```
+prediction=clf.predict(testing_features)
+```
+
+The next step is to compare the predictions with the actual labels of the test set. This will give us the accuracy of the model:
+
+```
+from sklearn.metrics import accuracy_score
+score= accuracy_score(prediction,testing_labels)
+
+```	
+Most models in classification, even regression can be trained and tested similarly.
+One thing to pay attention is each model has its special parameters that need to be specified differently, or that separate it from the other model. These parameters are usually entered along with the declaration of the model. Except for those, the rest remains the same. Now its time to go play!
+
+[scikit-learn]: https://scikit-learn.org/stable/index.html
+[documentation]: https://scikit-learn.org/stable/modules/naive_bayes.html
