@@ -1,12 +1,10 @@
-body { margin: 60px auto; width: 70%; }
-
 a { text-decoration: none; color: #0000FF; }
 a:hover { text-decoration: underline; }
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-h1 { font-size: 3em;  }
+h1 { font-size: 3em; text-align: center;  }
 h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
@@ -19,3 +17,28 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
+
+
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+  }
+  
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/assets/img/Sparks_img_main.jpg");
+    min-height: 75%;
+  }
+  
+  .sparksfont {
+    font-family: 'Pangolin', serif;
+    color: white;
+    font-size: 48px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
