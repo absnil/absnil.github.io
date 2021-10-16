@@ -16,8 +16,14 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; }
+ul.posts li { list-style: none; text-align: center; }
 
+.post, .posts {
+margin: auto;
+width: 60%;
+border: 5px solid #FFFF00;
+padding: 10px;
+}
 
 body, html {
     height: 100%;
